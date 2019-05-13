@@ -1,7 +1,7 @@
 
 language: python
 python:
-    - "3.4"
+    - "2.7.6"
 install: "pip install -r requirement.txt"
 script:
     - SECRET_KEY="whatever" ./manage.py test
